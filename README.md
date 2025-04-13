@@ -31,6 +31,7 @@ Key combination Ctrl+Z will pause the timer.
 **You have paused the bomb's timer. Let's figure out which wires to cut!**
 
 Function check_disarm
+
 Points of interest:
 ```
 iVar2 = __isoc99_sscanf(param_1,"%d %d %d %d %d %d %d");
@@ -100,7 +101,7 @@ You can't have 2 values less than 0 but add up to -1. Its impossible so this too
 
 Interger Overflow, what values do I need to get -1?
 
-INT_MAX is 2147483647
+INT_MAX is 2147483647, INT_MIN is -2147483648
 
 Answer: X X X
 
@@ -133,7 +134,7 @@ iVar1 == 0
 
 Notice iVar1 = sem4ph
 
-notice above [6] and [7]
+Notice above [6] and [7]
 
 This will break the loop.
 
