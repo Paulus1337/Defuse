@@ -4,6 +4,7 @@ A https://hack.ainfosec.com/ Reverse Engineering challange
 I will cover most answers with X as it took me nearly 3 days to be the 63rd person to "Defuse the bomb", I hope the below gives everyone a helping hand and a little kickstart in Reverse Engineering.
 
 Lets decode the provided binary and find the functions.
+I used Ghidra to get these functions: https://github.com/NationalSecurityAgency/ghidra
 
 This binary is a bomb. Your goal is to defuse it.
 
