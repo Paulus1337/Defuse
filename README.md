@@ -8,7 +8,7 @@ I used Ghidra to get these functions: https://github.com/NationalSecurityAgency/
 
 This binary is a bomb. Your goal is to defuse it.
 
-**Phase 1: The shell of the bomb is locked with a password!**
+## Phase 1: The shell of the bomb is locked with a password!
 
 Function phase_unlock
 ```
@@ -18,7 +18,7 @@ Answer: XXXXXXXXXXXX
 
 **The bomb opens to reveal a nest of colored wires.**
 
-**Phase 2: You have 0.1 seconds to cut 7 wires in the correct order. Good luck!**
+## Phase 2: You have 0.1 seconds to cut 7 wires in the correct order. Good luck!
 
 Function phase_disarm
 ```
@@ -86,7 +86,7 @@ Answer: X X X X X X X
 
 **Those should have been the correct wires! But the bomb's timer has started back up again!!**
 
-**Phase 3: What if we could get the timer to count up instead of down?**
+## Phase 3: What if we could get the timer to count up instead of down?
 
 Function phase_reverse
 ```
@@ -101,7 +101,7 @@ You can't have 2 values less than 0 but add up to -1. Its impossible so this too
 
 Interger Overflow, what values do I need to get -1?
 
-INT_MAX is 2147483647, INT_MIN is -2147483648
+32-bit INT_MAX is 2147483647, INT_MIN is -2147483648
 
 Answer: X X X
 
@@ -111,7 +111,7 @@ The overflow would cause this to become -1 due to how binary signed integers wor
 
 **Great! The timer is counting up. Let's get rid of this thing with the disposal robot.**
 
-**Phase 4: You recall the bomb disposal robot's mode switch is broken.**
+## Phase 4: You recall the bomb disposal robot's mode switch is broken.
 **How do we get this thing in disposal mode again?**
 
 Function phase_disposal
