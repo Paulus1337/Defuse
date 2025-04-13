@@ -95,7 +95,7 @@ iVar1 = __isoc99_sscanf(user_input,"%d %d %d");
 This line reads three integers from a string, suggesting user input with spaces.
 ```
   if ((local_18 < 0) || (local_1c < 0))
-  if (local_18 + local_1c != -1
+  if (local_18 + local_1c != -1)
 ```
 You can't have 2 values less than 0 but add up to -1. Its impossible so this took me down another path.
 
