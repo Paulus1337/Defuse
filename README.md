@@ -11,7 +11,7 @@ This binary is a bomb. Your goal is to defuse it.
 
 Function phase_unlock
 ```
-iVar2 = strcmp(user_input,"<password>");
+iVar2 = strcmp(user_input,"XXXXXXXXXXXX");
 ```
 Answer: XXXXXXXXXXXX
 
