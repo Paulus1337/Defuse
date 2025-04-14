@@ -58,7 +58,7 @@ This loop iterates through indices 0 to 6, accessing elements from wire_cut_sequ
 
 Extracting the wire_cut_sequence from memory with GDB:
 ```
-gdb 
+gdb defuse
 (gdb) break check_disarm
 (gdb) run
 (gdb) x/7d 0x80ce008
