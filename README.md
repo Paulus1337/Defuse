@@ -97,7 +97,7 @@ This line reads three integers from a string, suggesting user input with spaces.
   if ((local_18 < 0) || (local_1c < 0))
   if (local_18 + local_1c != -1)
 ```
-You can't have 2 values less than 0 but add up to -1. Its impossible so this took me down another path.
+You can't have 2 intergers less than 0 but add up to -1. Its impossible so this took me down another path.
 
 Interger Overflow, what values do I need to get -1?
 
