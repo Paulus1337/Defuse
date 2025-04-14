@@ -56,7 +56,7 @@ for (local_10 = 0; local_10 < 7; local_10++) {
 ```
 This loop iterates through indices 0 to 6, accessing elements from wire_cut_sequence based on values in local_34.
 
-Extracting Wire Sequence with GDB:
+Extracting the wire_cut_sequence from memory with GDB:
 ```
 gdb 
 (gdb) break check_disarm
