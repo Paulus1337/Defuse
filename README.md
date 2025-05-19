@@ -142,4 +142,4 @@ Answer: sem4phXX
 
 **You did it! Bomb disposed!**
 
-![Screenshot of a 63rd person to "Defuse the bomb".](https://github.com/Paulus88/Defuse/blob/main/defuse.png)
+![Screenshot of a 63rd person to "Defuse the bomb".](defuse.png)
